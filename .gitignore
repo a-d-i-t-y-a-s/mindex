@@ -1,0 +1,12 @@
+# Ignore Visual Studio workspace
+.vs/
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore other system files
+*.log
+*.tmp
+*.lock
+*.user
