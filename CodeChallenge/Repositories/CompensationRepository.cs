@@ -46,7 +46,7 @@ namespace CodeChallenge.Repositories
         public Compensation GetByEmployeeId(string employeeId)
         {
             return _dataContext.Compensations
-                .SingleOrDefault(c => c.EmployeeId == employeeId);
+                .FirstOrDefault(c => c.EmployeeId == employeeId);
         }
 
         public Task SaveAsync()

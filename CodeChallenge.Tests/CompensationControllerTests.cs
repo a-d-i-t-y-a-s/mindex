@@ -39,7 +39,7 @@ namespace CodeCodeChallenge.Tests.Integration
 			// Arrange
 			var compensation = new Compensation()
 			{
-				EmployeeId = "b7839309-3348-463b-a7e3-5de1c168beb3",
+				EmployeeId = "c0c2293d-16bd-4603-8e08-638a9d18b22c",
 				Salary = 120000,
 				EffectiveDate = System.DateTime.UtcNow
 			};
